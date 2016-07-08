@@ -1,0 +1,84 @@
+/* flex-boxes
+------------------------*/
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* HEADER
+------------------------*/
+.header{
+    background-color: #8aded5;
+    width: 100%;
+}
+
+/* BOARD
+------------------------*/
+.board{
+    background-color: whitesmoke;
+    flex-grow: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    flex-direction: column;
+    justify-content: center;*/
+}
+
+/* PLAYER1
+------------------------*/
+#player1{
+    background-color: #8a93de;
+}
+
+/* PLAYER2
+------------------------*/
+#player2{
+    background-color: #8adeab;
+}
+
+/* ASIDE
+------------------------*/
+.aside{
+    flex-grow: 1;
+    min-height:700px;
+}
+
+/* FOOTER
+------------------------*/
+.footer{
+    background-color: #93de8a;
+    width: 100%;
+}
+
+/*-----------------------------------------------------------*/
+/*Centering the tic tac toe board*/
+/* BOARD
+------------------------*/
+#centerBoard{
+    /*margin: 0 auto;*/
+    background-color: whitesmoke;
+    height: 603px;
+    width: 603px;
+}
+
+.box{
+    width:200px;
+    height:200px;
+    float: left;
+    /*border: 1px solid;*/
+    /*display: inline-block;*/
+}
+
+.leftright{
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.updown{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.middle{
+    border: 1px solid;
+}
