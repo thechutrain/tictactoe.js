@@ -2,13 +2,14 @@
 /*X & O*/
 /* BOARD
 ------------------------*/
+.o{
+    background-color: blue;
+}
+
 .x{
     background-color: red;
 }
 
-.o{
-    background-color: blue;
-}
 
 /* flex-boxes
 ------------------------*/
@@ -94,3 +95,18 @@
 .middle{
     border: 1px solid;
 }
+
+/*-----------------------------------------------------------*/
+/* Hidding the model
+------------------------*/
+#model{
+    display: none;
+}
+
+/* Highlight Class for players
+------------------------*/
+/*.highlight{
+    background-color: ;
+}*/
+
+
