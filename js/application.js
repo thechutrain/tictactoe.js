@@ -26,61 +26,6 @@ $(document).ready(function(){
 		return winner;
 	};
 
-
-
-
-	// function isGameOver(){
-	// 	//  this function checks if the game is over
-	// 	// 1.) Get all the data points in the board
-	// 	var gameBoard = new Array(9);
-	// 	var centerBoard = $('centerBoard');
-	// 	for (var j=0; j< gameBoard.length; j++){
-	// 		// var mark = centerBoard.find('box' + j.toString()).data("mark");
-	// 		var box = $(centerBoard).find("box" + j.toString());
-	// 		alert(box);
-	// 		if (box.hasClass("x")){
-	// 			gameBoard[j] = "x";
-	// 		}
-	// 		else if (box.hasClass("o")){
-	// 			gameBoard[j] = "o";
-	// 		} else {
-	// 			gameBoard[j] = " ";
-	// 			// alert($(this));
-	// 		}
-	// 	};
-
-	// 	alert(gameBoard);
-
-	// 	// winning combinations
-	// 	var winningCombinations =[
-	// 	["0", "1", "2"],
-	// 	["3", "4", "5"],
-	// 	["6", "7", "8"],
-	// 	["0", "3", "6"],
-	// 	["1", "4", "7"],
-	// 	["2", "5", "8"],
-	// 	["0", "4", "8"],
-	// 	["2", "4", "6"]
-	// 	];
-
-	// 	for(var i=0; i < winningCombinations.length; i++){
-	// 		// alert(winningCombinations[i]);
-	// 		var pt1 = gameBoard[winningCombinations[i][0]];
-	// 		var pt2 = gameBoard[winningCombinations[i][1]];
-	// 		var pt3 = gameBoard[winningCombinations[i][2]];
-	// 		var results = checkCombinations(pt1, pt2, pt3);
-	// 		if (results == "x"){
-	// 			alert("GAME OVER: x won!");
-	// 			$(".box").off("click", changeBackground);
-	// 		} else if (results == "o"){
-	// 			alert("GAME OVER: o won!");
-	// 			$(".box").off("click", changeBackground);
-	// 		}
-	// 	}
-
-
-	// }
-
 	function changeBackground(){
 		var proceed = true;
 		// First check to see if box already has a class
