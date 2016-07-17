@@ -4,6 +4,7 @@
 ------------------------*/
 .o{
     background-color: blue;
+    /*background-image: url(img/cross.png); */
 }
 
 .x{
@@ -52,7 +53,7 @@
 /* ASIDE
 ------------------------*/
 .aside{
-    flex-grow: 1;
+    flex-grow: 3;
     min-height:700px;
 }
 

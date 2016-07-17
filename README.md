@@ -1,10 +1,10 @@
 # tictactoe.js
 
-A browser-based take on the classic boardgame, battleship.js is a project that I worked on for fun to learn javascript and jQuery. Enjoy! 
+A browser-based game of tic tac toe. This is my first javascript mini-project, and I am using it as an opportunity to learn javascript and jQuery. Enjoy! 
 
 ## Play the game
 
-Visit <a target="_blank" href="https://thechutrain.github.io/battleship.js/battleship.html"> this website </a> to check out this program.
+Visit <a target="_blank" href="https://thechutrain.github.io/tictactoe.js/ticTacToe.html"> this website </a> to check out this program.
 
 ## Things to Do:
 
@@ -12,15 +12,15 @@ There are a lot of things to do to make this project even better. I've divided t
 
 ### Bugs to fix:
 <ol>
-	<li><strike>make cells with the 'miss' class display 'miss' css styles, so background is white</strike></li>
-	<li><strike>prevent cells from have multiple instances of the 'miss' or 'hit' class</strike></li>
-	<li> fix the links in this read me file</li>
-	<li><strike>initialize new game does not reset ship_container, just keeps added a new set of ships</strike></li>
+	<li><strike></strike></li>
+	<li><strike></strike></li>
+	<li> </li>
+	<li><strike></strike></li>
 </ol>
 
 
 ### Additional work:
-<ul>
+<!-- <ul>
 	<li>!! Make it mobile-responsive!!</li><ol>
 		<li> add event listeners for touch</li>
 	</ol>
@@ -38,7 +38,7 @@ There are a lot of things to do to make this project even better. I've divided t
 	<li> Make a footer</li><ol>
 		<li> center it, add a Made by bolded name</li>
 	</ol>
-</ul>
+</ul> -->
 
 
 ## Built With
@@ -48,7 +48,7 @@ There are a lot of things to do to make this project even better. I've divided t
 
 ## Authors
 
-* **Alan Chu** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Alan Chu** - *Initial work* - 
 
 
 ## Acknowledgments
