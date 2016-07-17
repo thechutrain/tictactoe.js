@@ -79,8 +79,27 @@
     width:200px;
     height:200px;
     float: left;
+    position: relative;
     /*border: 1px solid;*/
     /*display: inline-block;*/
+}
+
+.box_x {
+    width: 180px;
+    height: 180px;
+    margin: 10px auto;
+    background: url(../img/cross.png);
+    background-size: contain;
+    background-color: white;
+}
+
+.box_o {
+    width: 180px;
+    height: 180px;
+    margin: 10px auto;
+    background: url(../img/circle.png);
+    background-size: contain;
+    background-color: white;
 }
 
 .leftright{
